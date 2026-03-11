@@ -146,6 +146,13 @@ Use this password to login.
 
 # 7. Login Using ArgoCD CLI (Optional)
 
+Install CLI Windows:
+
+```
+winget install argocd
+
+```
+
 Install CLI:
 
 Download from

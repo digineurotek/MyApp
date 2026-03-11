@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: mbosofthub/my-fastapi-app:latest
+        image: sssandy/myapp:1.0
         ports:
         - containerPort: 8000
