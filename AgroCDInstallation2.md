@@ -204,8 +204,9 @@ Example repository:
 ```
 https://github.com/argoproj/argocd-example-apps.git
 ```
+Both Way:
 
-Create application using CLI:
+1. Create application using CLI:
 
 ```bash
 argocd app create guestbook \
@@ -213,6 +214,14 @@ argocd app create guestbook \
 --path guestbook \
 --dest-server https://kubernetes.default.svc \
 --dest-namespace default
+```
+
+OR
+
+2. Create application using kubectl:
+
+```
+kubectl apply -f argocd-application.yaml -n argocd
 ```
 
 ---
